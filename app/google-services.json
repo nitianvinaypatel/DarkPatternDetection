@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1071503002320",
+    "project_id": "dark-pattern-detection",
+    "storage_bucket": "dark-pattern-detection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071503002320:android:cf1effa6ef47d256b2ecd5",
+        "android_client_info": {
+          "package_name": "com.darkpattern.detection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpLwiwMCKMAcre5CiAIi6kqHY1nKj3838"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

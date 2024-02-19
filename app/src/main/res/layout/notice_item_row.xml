@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="@color/darkBlue"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/SenderImage"
+                android:layout_width="50dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:src="@drawable/user_profile_icon" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/SenderName"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="left"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/andika_new_basic"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    tools:ignore="RtlHardcoded" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginEnd="15dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Time"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="right"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/andika_new_basic"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:text="@string/time"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/Date"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="right"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/andika_new_basic"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date"
+                    tools:ignore="RtlHardcoded,SmallSp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_marginTop="-5dp"
+            android:layout_height="0.7dp">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/message_box"
+                android:textColor="@color/white"
+                android:text="@string/message"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_height="0.7dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+            <ImageView
+                android:id="@+id/NoticeImage"
+                android:layout_width="match_parent"
+                android:src="@drawable/logo_desktop"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/black"
+            android:layout_height="0.7dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="-5dp"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Like"
+                android:text="Like"
+                android:drawableStart="@drawable/like"
+                android:layout_weight="0.1"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,UseCompatTextViewDrawableXml" />
+
+            <View
+                android:layout_width="1dp"
+                android:background="@color/black"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Comment"
+                android:text="@string/comment"
+                android:layout_weight="0.1"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:drawableLeftCompat="@drawable/comment" />
+
+            <View
+                android:layout_width="1dp"
+                android:background="@color/black"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/Dislike"
+                android:text="@string/dislike"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:drawablePadding="2dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="0.1"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:drawableLeftCompat="@drawable/dislike" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group>
+                <item
+                    android:id="@+id/upload"
+                    android:icon="@drawable/upload_ic"
+                    android:title="Upload"/>
+                <item
+                    android:id="@+id/complaint"
+                    android:icon="@drawable/complaint_ic"
+                    android:title="Complaint"/>
+                <item
+                    android:id="@+id/community"
+                    android:icon="@drawable/community_ic"
+                    android:title="Community"/>
+        </group>
+
+</menu>
+

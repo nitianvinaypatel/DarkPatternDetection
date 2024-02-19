@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkBlue">#7037D5</color>
+    <color name="colorPrimary">#7037D5</color>
+    <color name="primaryGray">#808080</color>
+    <color name="colorPrimaryVariant">#FFEB3B</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="red">#FF0000</color>
+    <color name="statusBarColor">#00FFFF</color>
+    <color name="myTextColor">#FF4081</color>
+    <!-- Change this to your desired color -->
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group>
+                <item
+                    android:id="@+id/track"
+                    android:icon="@drawable/track_ic"
+                    android:title="Tracking Complaint"/>
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="Edit Profile"/>
+                <item
+                    android:id="@+id/link"
+                    android:icon="@drawable/link_ic"
+                    android:title="Link Accounts"/>
+                <item
+                    android:id="@+id/refer"
+                    android:icon="@drawable/ic_refer"
+                    android:title="Refer to Friends"/>
+
+                <item
+                    android:id="@+id/why"
+                    android:icon="@drawable/ic_why"
+                    android:title="Why this App?"/>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout_white"
+                    android:title="Logout"/>
+
+        </group>
+
+</menu>
+

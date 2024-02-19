@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.darkpattern.detection">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_desktop"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_desktop"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light.NoActionBar"
+        tools:targetApi="tiramisu">
+        <activity
+            android:name=".HardcodedText"
+            android:exported="false" />
+        <activity
+            android:name=".ScanProgressBar"
+            android:exported="false" />
+        <activity
+            android:name=".HardcodedImage"
+            android:exported="false" />
+        <activity
+            android:name=".ComplaintResult"
+            android:exported="false" />
+        <activity
+            android:name=".CommunityPost"
+            android:exported="false" />
+        <activity
+            android:name=".ResultImage"
+            android:exported="false" />
+        <activity
+            android:name=".ResultText"
+            android:exported="false" />
+        <activity
+            android:name=".Entertext"
+            android:exported="false" />
+        <activity
+            android:name=".SelectImage"
+            android:exported="false" />
+        <activity
+            android:name=".LinkAccounts"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".WhyThisApp"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TrackinComplaint"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".WelcomeScreen"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
